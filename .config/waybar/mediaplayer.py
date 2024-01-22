@@ -68,7 +68,7 @@ class PlayerManager:
         output = {"text": text,
                   "class": "custom-" + player.props.player_name,
                   "alt": player.props.player_name,
-                  "tooltip": "Click for play/pause, Scroll for next/previous"}
+                  "tooltip": text}
 
         sys.stdout.write(json.dumps(output) + "\n")
         sys.stdout.flush()

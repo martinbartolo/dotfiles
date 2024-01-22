@@ -9,7 +9,6 @@
       ""
     ],
     "interval": 60,
-    "max-length": 25,
     "states": {
       "critical": 15,
       "warning": 30
@@ -33,6 +32,7 @@
     "escape": true,
     "exec": "/usr/bin/python3 ~/.config/waybar/mediaplayer.py",
     "format": "{}",
+    "max-length": 1000,
     "on-click": "playerctl play-pause",
     "on-scroll-down": "playerctl next",
     "on-scroll-up": "playerctl previous",
@@ -43,13 +43,8 @@
     "format": "{free}",
     "interval": 30
   },
-  "hyprland/submap": {
-    "format": "✌️ {}",
-    "max-length": 8,
-    "tooltip": true
-  },
   "hyprland/workspaces": {
-    "format": "{name}:{icon}",
+    "format": "{name}: {icon} ",
     "format-icons": {
       "1": "",
       "2": "",
@@ -105,7 +100,6 @@
     "format-disconnected": "", //An empty format will hide the module.
     "format-ethernet": "{ipaddr}",
     "format-wifi": "{essid} ({signalStrength}%) ",
-    "max-length": 50,
     "tooltip-format": "{ifname} via {gwaddr}",
     "tooltip-format-disconnected": "Disconnected",
     "tooltip-format-ethernet": "{ifname} ",
