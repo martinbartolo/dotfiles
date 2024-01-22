@@ -8,7 +8,7 @@
 | Editor           | vs code         |
 
 # Install
-archinstall with Hyprland Desktop Profile
+archinstall with hyprland desktop profile
 
 ## Install Packages
 
