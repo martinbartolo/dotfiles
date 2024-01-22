@@ -31,3 +31,11 @@ yay -Syu zsh \
     python-gobject \
     visual-studio-code-bin \
 ```
+
+## Get config files
+
+```
+git clone --depth 1 --separate-git-dir=$HOME/.dotfiles https://github.com/martinbartolo/dotfiles.git $HOME/dotfiles-tmp
+    rm -r ~/dotfiles-tmp/
+    alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+```
