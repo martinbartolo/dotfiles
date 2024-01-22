@@ -1,0 +1,148 @@
+{
+  "battery": {
+    "format": "{capacity}% {icon}",
+    "format-icons": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "interval": 60,
+    "max-length": 25,
+    "states": {
+      "critical": 15,
+      "warning": 30
+    }
+  },
+  "clock": {
+    "format": "{:%d %b %H:%M}",
+    "interval": 60,
+    "tooltip": true,
+    "tooltip-format": "{:%d %B %Y %H:%M}"
+  },
+  "cpu": {
+    "format": "{usage}% "
+  },
+  "custom/powermenu": {
+    "format": "",
+    "on-click": "exec wlogout -p layer-shell",
+    "tooltip": false
+  },
+  "custom/spotify": {
+    "escape": true,
+    "exec": "/usr/bin/python3 ~/.config/waybar/mediaplayer.py",
+    "format": "{}",
+    "on-click": "playerctl play-pause",
+    "on-scroll-down": "playerctl next",
+    "on-scroll-up": "playerctl previous",
+    "return-type": "json",
+    "tooltip": true
+  },
+  "disk": {
+    "format": "{free}",
+    "interval": 30
+  },
+  "hyprland/submap": {
+    "format": "✌️ {}",
+    "max-length": 8,
+    "tooltip": true
+  },
+  "hyprland/workspaces": {
+    "format": "{name}: {icon}",
+    "format-icons": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "active": "",
+      "default": ""
+    },
+    "persistent-workspaces": {
+      "DP-1": [
+        1,
+        2,
+        3
+      ],
+      "eDP-1": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "layer": "top",
+  "margin-bottom": 0,
+  "memory": {
+    "format": "{}% "
+  },
+  "modules-left": [
+    "clock",
+    "hyprland/workspaces",
+    "custom/spotify",
+    "tray"
+  ],
+  "modules-right": [
+    "pulseaudio",
+    "network",
+    "memory",
+    "cpu",
+    "temperature",
+    "disk",
+    "battery",
+    "custom/powermenu"
+  ],
+  // "network": {
+  //   "format": " {bandwidthDownBits}  {bandwidthUpBits}",
+  // 	"format-disconnected": "",
+  // 	"interval": 2,
+  //   "tooltip-format": "{ifname} via {gwaddr} 󰊗",
+  //   "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+  // 	"tooltip-format-ethernet": "{ifname} ",
+  //   "tooltip-format-disconnected": "Disconnected"
+  // },
+  "network": {
+    "format": "{ifname}",
+    "format-disconnected": "", //An empty format will hide the module.
+    "format-ethernet": "{ipaddr}",
+    "format-wifi": "{essid} ({signalStrength}%) ",
+    "max-length": 50,
+    "tooltip-format": "{ifname} via {gwaddr}",
+    "tooltip-format-disconnected": "Disconnected",
+    "tooltip-format-ethernet": "{ifname} ",
+    "tooltip-format-wifi": "{essid} ({signalStrength}%) "
+  },
+  "position": "top",
+  "pulseaudio": {
+    "format": "{volume}% {icon}",
+    "format-bluetooth": "{volume}% {icon}",
+    "format-icons": {
+      "car": "",
+      "default": [
+        "",
+        ""
+      ],
+      "hands-free": "",
+      "headphone": "",
+      "headset": "",
+      "phone": "",
+      "portable": ""
+    },
+    "format-muted": "",
+    "on-click": "pavucontrol",
+    "scroll-step": 5
+  },
+  "temperature": {
+    "critical-threshold": 80,
+    "format": "{temperatureC}°C",
+    "format-icons": [
+      "",
+      "",
+      ""
+    ],
+    "thermal-zone": 2
+  },
+  "tray": {
+    "icon-size": 24,
+    "spacing": 10
+  }
+}
