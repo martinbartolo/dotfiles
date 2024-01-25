@@ -39,3 +39,7 @@ git clone --depth 1 --separate-git-dir=$HOME/.dotfiles https://github.com/martin
     rm -r ~/dotfiles-tmp/
     alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 ```
+
+# Screenshots
+![Wallpaper](.screenshots/screenshot-2024-01-22-22:41:13.png)
+![Showcase](.screenshots/screenshot-2024-01-22-22:40:45.png)
