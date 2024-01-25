@@ -1,14 +1,10 @@
 font="JetbrainsMono Nerdfont"
 
-#background-color=#303643
-#text-color=#f7f8f9
-#border-size=0
-#border-radius=#12px
 progress-color=#fa5aa4
 sort=-time
 layer=overlay
-background-color=#383f4e
-text-color=#f7f8f9
+background-color=#0a0a0abf
+text-color=#ffffff
 border-size=0
 border-radius=12
 max-icon-size=64
