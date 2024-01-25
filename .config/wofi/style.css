@@ -1,6 +1,5 @@
 window {
-	/* border: 2px solid red; */
-	background-color: hsl(220, 17%, 14%);
+	background-color: rgba(10, 10, 10, 0.8);
 	padding: 50px;
 }
 
