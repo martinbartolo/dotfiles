@@ -77,5 +77,6 @@ sudo mv <your image> /usr/share/sddm/faces/<username>.face.icon
 
 ## Screenshots
 
-![Wallpaper](.screenshots/screenshot-2024-01-22-22:41:13.png)
-![Showcase](.screenshots/screenshot-2024-01-22-22:40:45.png)
+![Desktop](.screenshots/desktop.png)
+![Showcase](.screenshots/neofetch.png)
+![Lockscreen](.screenshots/lockscreen.jpg)
