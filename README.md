@@ -29,6 +29,7 @@ yay -Syu zsh \
     pavucontrol \
     grim \
     slurp \
+    sxiv \
     google-chrome \
     spotify-launcher \
     python-gobject \
