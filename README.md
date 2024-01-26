@@ -58,7 +58,7 @@ To change the font set Font=JetbrainsMono Nerd Font
 ### Changing wallpaper
 
 ```bash
-sudo mv .wallpapers/garden.png /usr/share/sddm/themes/assets/garden.png
+sudo cp .wallpapers/garden.png /usr/share/sddm/themes/assets/garden.png
 ```
 
 ```bash
