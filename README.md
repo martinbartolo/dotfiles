@@ -29,6 +29,7 @@ yay -Syu zsh \
     pavucontrol \
     grim \
     slurp \
+    sxiv \
     google-chrome \
     spotify-launcher \
     python-gobject \
@@ -58,7 +59,7 @@ To change the font set Font=JetbrainsMono Nerd Font
 ### Changing wallpaper
 
 ```bash
-sudo mv .wallpapers/garden.png /usr/share/sddm/themes/assets/garden.png
+sudo cp .wallpapers/garden.png /usr/share/sddm/themes/assets/garden.png
 ```
 
 ```bash
