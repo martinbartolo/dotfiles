@@ -121,12 +121,7 @@
   "temperature": {
     "critical-threshold": 80,
     "format": "{temperatureC}°C",
-    "format-icons": [
-      "",
-      "",
-      ""
-    ],
-    "thermal-zone": 2
+    "thermal-zone": 6
   },
   "tray": {
     "icon-size": 24,
